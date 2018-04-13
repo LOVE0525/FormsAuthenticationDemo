@@ -9,6 +9,7 @@ namespace FormsAuthenticationDemo
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            //添加全局过滤
             filters.Add(new RequestAuthorizeAttribute());
         }
     }
