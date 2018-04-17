@@ -36,3 +36,4 @@ D:\workspace\netdemo\LoginDemo\FormsAuthenticationDemo\bin\NLog.dll
 D:\workspace\netdemo\LoginDemo\FormsAuthenticationDemo\bin\NLog.Mvc.dll
 D:\workspace\netdemo\LoginDemo\FormsAuthenticationDemo\bin\NLog.xml
 D:\workspace\netdemo\LoginDemo\FormsAuthenticationDemo\bin\NLog.Mvc.pdb
+D:\workspace\netdemo\LoginDemo\FormsAuthenticationDemo\obj\Debug\FormsAuthenticationDemo.csprojResolveAssemblyReference.cache

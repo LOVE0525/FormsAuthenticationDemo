@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 using FormsAuthenticationDemo.App_Start;
 using FormsAuthenticationDemo.Models;
 
@@ -41,6 +42,13 @@ namespace FormsAuthenticationDemo.Controllers
                
             }
             return new RedirectResult("/home/index");
+        }
+
+        public ActionResult Logout()
+        {
+            Session.Abandon();
+            FormsAuthentication.SignOut();
+            return new RedirectResult(FormsAuthentication.LoginUrl);
         }
        
     }
