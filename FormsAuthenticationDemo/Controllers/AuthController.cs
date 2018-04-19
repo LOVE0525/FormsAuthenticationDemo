@@ -36,6 +36,8 @@ namespace FormsAuthenticationDemo.Controllers
                 ud.UserId = "78787";
                 ud.Phone = "18611347259";
                 HttpFormsAuthentication.SetAuthenticationCookie("刘飞", ud, 5);
+
+             
             }
             else
             {

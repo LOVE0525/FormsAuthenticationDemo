@@ -27,6 +27,8 @@ namespace FormsAuthenticationDemo.App_Start
                 HandleUnauthorizedRequest(filterContext);
                 return;
             }
+            //续租Cookie
+            HttpFormsAuthentication.TryRenewAuthCookieExpires(HttpContext.Current);
             //权限验证
 
             //.....
